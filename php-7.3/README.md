@@ -6,10 +6,10 @@ What's included:
 
 # Using this container
 
-You can refer to this container as `thebugsoftware/php73`.
+You can refer to this container as `thebugsoftwaredevelopment/php73`.
 
 ```
-$ docker run -it --rm thebugsoftware/php73 bash
+$ docker run -it --rm thebugsoftwaredevelopment/php73 bash
 php -v
 PHP 7.3.x
 ```
@@ -17,6 +17,6 @@ PHP 7.3.x
 # Build & Push
 
 ```
-$ docker build -t thebugsoftware/php73 .
-$ docker login && docker push thebugsoftware/php73
+$ docker build -t thebugsoftwaredevelopment/php73 .
+$ docker login && docker push thebugsoftwaredevelopment/php73
 ```

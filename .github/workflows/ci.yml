@@ -4,7 +4,7 @@ jobs:
   phpunit:
     runs-on: ubuntu-latest
     container:
-      image: thebugsoftware/php73
+      image: thebugsoftwaredevelopment/php73
 
     steps:
     - uses: actions/checkout@v1
